@@ -44,4 +44,52 @@ O programa exibirá no console o resumo completo do pedido de passagem.
 
 - Este projeto é educacional, focado em praticar conceitos de Dart e OOP.
 - Pode ser facilmente expandido para incluir mais voos, passageiros ou funcionalidades.
-# dart-classes
+
+---
+
+# 🛫 Airline Ticket Order System in Dart
+
+This project is an example of a Dart application that simulates processing an airline ticket order, including passenger information, outbound and return flights, payment fee, and accumulated points. It is ideal for practicing classes, objects, and object-oriented programming (OOP) in Dart.
+
+## ⚙️ Features
+
+- Creation of classes for Order, Passenger, AirTicket, Flight, and Fee.
+- Recording detailed information for outbound and return flights.
+- Calculation and display of accumulated points and fees.
+- Printing a complete order summary in the console.
+
+## 📝 Code Structure
+
+- Order → contains the passenger, ticket, points, and fee.
+- Passenger → first name, last name, date of birth, and gender.
+- AirTicket → references outbound and return flights.
+- Flight → number, class type, airline, schedules, locations, allowed baggage, and whether it is refundable.
+- Fee → amount and payment method.
+
+The program creates a sample order and prints all the information in an organized manner in the console.
+
+## ▶️ How to Run
+
+**Recommended Option: DartPad**
+
+- Running the code on DartPad is the simplest and fastest way.
+- Just copy and paste the code into the editor and click Run.
+
+**Local Option (if Dart is installed)**
+
+1. Save the code in a file named main.dart.
+2. Open the terminal in the file’s folder.
+3. Execute:
+
+```dart
+dart run main.dart
+```
+
+The program will display a complete summary of the ticket order in the console.
+
+## 💡 Notes
+
+- This project is educational, focused on practicing Dart and OOP concepts.
+- It can be easily expanded to include more flights, passengers, or functionalities.
+
+teste
