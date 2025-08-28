@@ -34,7 +34,8 @@ O programa cria um pedido de exemplo e imprime no console todas as informações
 2. Abra o terminal na pasta do arquivo.
 3. Execute:
 
-```dart run main.dart
+```dart
+dart run main.dart
 ```
 
 O programa exibirá no console o resumo completo do pedido de passagem.
